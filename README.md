@@ -38,4 +38,4 @@ EOF
 
 # dev notes
 
-The example Makefile utilizes [pnpm](https://pnpm.io/) to manage and on deman download the required NodeJS version.
+The example Makefile utilizes [pnpm](https://pnpm.io/) to manage and download on demand the required NodeJS version.
