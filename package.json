@@ -1,0 +1,28 @@
+{
+  "name": "make-nodejs-demo",
+  "private": "true",
+  "version": "1.0.0",
+  "description": "a simple project show case how to use a mixture shell and nodejs in make targets",
+  "homepage": "https://github.com/lgersman/make-nodejs-demo",
+  "scripts": {
+    "prepare": "(printenv npm_config_user_agent | grep 'pnpm' 1>/dev/null) || echo \"Please install and use pnpm instead of $(printenv npm_config_user_agent)'\""
+  },
+  "keywords": [
+    "pnpm",
+    "make",
+    "nodejs",
+    "demo"
+  ],
+  "author": {
+    "email": "lars.gersmann@gmail.com",
+    "name": "lars gersmann"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lgersman/make-nodejs-demo.git"
+  },
+  "license": "GPL-3.0-only",
+  "devDependencies": {
+    "zx": "8.1.2"
+  }
+}
